@@ -136,14 +136,14 @@ tree* deleteEven(tree* tree){
 
 int main()
 {
-	struct tree* tr = newtree(1);
+	struct tree* tr = newtree(3);
 	tr->left = newtree(2);
-	tr->left->left = newtree(8);
-	tr->left->right = newtree(10);
-	tr->right = newtree(7);
-	tr->right->left = newtree(12);
+	tr->left->left = newtree(9);
+	tr->left->right = newtree(8);
+	tr->right = newtree(17);
+	tr->right->left = newtree(4);
 	tr->right->right = newtree(5);
-	tr->right->right->right = newtree(4);
+	tr->right->right->right = newtree(7);
 
     print_tree(tr);
     cout<<endl;
