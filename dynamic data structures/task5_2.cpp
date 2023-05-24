@@ -18,7 +18,6 @@ int main(){
         q2.push(a);
     }
     
-    
     q1.push(q.front());
     q.pop();
     while (!q.empty()){
