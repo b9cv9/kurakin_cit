@@ -36,7 +36,6 @@ int main(){
     cout<<endl;
     
     
-    
     while (!q2.empty()){
         int a;
         a = q2.top();
